@@ -25,9 +25,10 @@ body {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  color: #000;
+  color: #fff;
   font-size: 20px;
   opacity: 0.5;
+  cursor: pointer;
 }
 
 .btn.prev {
@@ -36,4 +37,8 @@ body {
 
 .btn.next {
   right: 10px;
+}
+
+.btn:hover {
+  opacity: 1;
 }
