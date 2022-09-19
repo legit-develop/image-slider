@@ -33,3 +33,7 @@ body {
 .btn.prev {
   left: 10px;
 }
+
+.btn.next {
+  right: 10px;
+}
